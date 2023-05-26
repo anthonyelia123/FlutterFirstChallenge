@@ -45,6 +45,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
 
   @override
   Widget build(BuildContext context) {
+    //todo
     var ntfDetailsProvider = Provider.of<NftDetailsProvider>(context);
     var ntfsDetails = ntfDetailsProvider.nftsDetails;
     return Container(

@@ -1,10 +1,10 @@
 import 'package:first_challenge/models/NftsProvider.dart';
-import 'package:first_challenge/models/NtfDetails.dart';
 import 'package:first_challenge/screens/home/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import 'config/app_router.dart';
+import 'models/NftDetailsProvider.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
             create: (_) => NftsProvider(),
           ),
           ChangeNotifierProvider(
-            create: (_) => NftDetails(),
+            create: (_) => NftDetailsProvider(),
           )
         ],
         child: MaterialApp(

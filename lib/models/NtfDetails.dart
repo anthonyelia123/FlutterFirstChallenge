@@ -2,7 +2,7 @@ import 'package:first_challenge/models/ImageModel.dart';
 import 'package:first_challenge/models/priceModel.dart';
 import 'package:flutter/material.dart';
 
-class NftDetails extends ChangeNotifier {
+class NftDetails {
   String? description;
   String? name;
   ImageModel? image;
